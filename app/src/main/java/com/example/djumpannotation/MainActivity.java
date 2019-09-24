@@ -9,11 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.annotation.BindView;
 import com.example.annotation.ClickEvent;
-import com.example.annotation.QtInject;
-import com.example.dcompiler.AndJump;
 import com.example.dcompiler.DInject;
 
-//@QtInject
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.tv_test)
@@ -33,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         QSecondActivity.getInstance().setName("小玲").setValue(16).start(MainActivity.this, 0x05);
 
     }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

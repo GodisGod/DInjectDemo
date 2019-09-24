@@ -24,10 +24,14 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     //注解库
-    implementation 'com.github.GodisGod:CompileAnnotation:2.0.2'
+    implementation 'com.github.GodisGod.CompileAnnotation:annotation:2.0.3'
     //注解解析器
-    annotationProcessor 'com.github.GodisGod.CompileAnnotation:processor:2.0.3'
+    annotationProcessor 'com.github.GodisGod.CompileAnnotation:processor:2.1.0'
     //注解api封装库
-    implementation 'com.github.GodisGod.CompileAnnotation:dcompiler:2.0.3'
+    implementation 'com.github.GodisGod.CompileAnnotation:dcompiler:2.1.0'
+
+//    com.github.GodisGod.CompileAnnotation:annotation:2.1.0
+//    com.github.GodisGod.CompileAnnotation:processor:2.1.0
+//    com.github.GodisGod.CompileAnnotation:dcompiler:2.1.0
 
 }
